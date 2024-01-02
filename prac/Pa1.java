@@ -9,7 +9,7 @@ class Person {
 
     void display() {
         System.out.println("name:" + name);
-        System.out.println("num:" + num);
+        System.out.println("num:-------------------" + num);
     }
 }
 
@@ -47,13 +47,12 @@ class Sports extends Person {
     }
 }
 
-public class Pa1 { 
-        public static void main(String args[])
-    {   
-        Acad a = new Acad("John",3,"engg",95);
+public class Pa1 {
+    public static void main(String args[]) {
+        Acad a = new Acad("John", 3, "engg", 95);
         a.display1();
-   
-        Sports s = new Sports("ash",12,"cricket",5);
+
+        Sports s = new Sports("ash", 12, "cricket", 5);
         s.display2();
     }
 }
